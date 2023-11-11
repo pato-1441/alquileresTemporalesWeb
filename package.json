@@ -1,11 +1,16 @@
 {
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "lucide": "^0.292.0"
+    "lucide": "^0.292.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.3.0"
   }
 }
