@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alquileres Temporarios</title>
+    <link
+      rel="shortcut icon"
+      href="../dist/iconoAlquileres.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Work+Sans:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="font-alquileres">
+    <header class="w-full h-24 bg-gray-800 font-semibold">
+      <div
+        class="px-6 sm:px-0 container mx-auto w-full h-full flex items-center justify-between text-white sm:w-1/2"
+      >
+        <div
+          class="transition-all duration-100 hover:bg-gray-600 sm:pl-1 sm:pr-4 py-1 rounded-full"
+        >
+          <a
+            class="flex items-center gap-2"
+            href="./index.html"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../dist/iconoAlquileres.png"
+              alt="logo Alquileres Temporarios"
+              class="w-16 h-16"
+            />
+            <h1 class="text-sm hidden sm:flex">Alquileres<br />Temporarios</h1>
+          </a>
+        </div>
+        <ul class="flex justify-between gap-3">
+          <li>
+            <a
+              rel="noopener noreferrer"
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
+              href="./index.html"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
+              href="./casos.html"
+              rel="noopener noreferrer"
+              >Casos</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
+              href="./creadores.html"
+              rel="noopener noreferrer"
+              >Creadores</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="bg-gray-200 min-h-[100svh]">
+      <div class="mx-auto w-full h-48">
+        <div
+          class="w-full h-48 bg-cover bg-center bg-[url('https://www.reviewbox.com.mx/wp-content/uploads/2019/06/45216294_m.jpg')]"
+        ></div>
+      </div>
+      <div class="px-6 sm:px-0 container pt-16 pb-16 mx-auto flex sm:w-1/2">
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-2">
+            <h2 class="font-bold text-4xl">Casos de uso</h2>
+            <p class="text-lg">
+              A continuación, te presentamos los pasos esenciales para realizar
+              una reserva y, en caso de ser necesario, anularla.
+            </p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h2 class="font-bold text-2xl">Reserva</h2>
+            <ol class="list-decimal">
+              <li>
+                <span class="font-semibold">Inicio de la búsqueda:</span> Desde
+                la página de inicio, utilice los filtros disponibles para buscar
+                la casa que mejor se adapte a sus necesidades.
+              </li>
+              <li>
+                <span class="font-semibold">Selección de la propiedad:</span>
+                Una vez que haya encontrado una casa de su agrado, haga doble
+                clic en la propiedad para obtener más detalles.
+              </li>
+              <li>
+                <span class="font-semibold">Proceso de reserva:</span> Dentro de
+                la ventana de detalles de la propiedad, haga clic en el botón
+                “Reservar” para iniciar el proceso de reserva.
+              </li>
+              <li>
+                <span class="font-semibold">Ingreso de datos del cliente:</span>
+                Se abrirá una nueva ventana donde deberá ingresar el nombre y el
+                documento del cliente. Asegúrese de ingresar correctamente todos
+                los datos solicitados, ya que no podrá continuar si hay errores.
+                Tenga en cuenta que todos los campos son obligatorios y el
+                documento debe constar de 8 números.
+              </li>
+              <li>
+                <span class="font-semibold">Confirmación de la reserva:</span>
+                Al aceptar, se abrirá una nueva ventana con toda la información
+                de la reserva. En esta etapa, tiene la opción de confirmar y
+                reservar la propiedad o cancelar el proceso de reserva.
+              </li>
+              <li>
+                <span class="font-semibold">Finalización de la reserva:</span>
+                Si elige “Aceptar”, la reserva se completará y se confirmará.
+              </li>
+            </ol>
+            <p>
+              Por favor, siga estos pasos cuidadosamente para garantizar una
+              experiencia de reserva sin problemas. ¡Esperamos que encuentre la
+              casa perfecta para sus necesidades!
+            </p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h2 class="font-bold text-2xl">Anulación de reserva</h2>
+            <ol class="list-decimal">
+              <li>
+                <span class="font-semibold"
+                  >Inicio del proceso de anulación:</span
+                >
+                Desde la página de inicio, puede iniciar el proceso de anulación
+                de una reserva de dos maneras: presionando el botón que dice
+                “Eliminar reserva” o siguiendo la secuencia en el menú de la
+                parte superior izquierda: Reservas -> Eliminar Reserva.
+              </li>
+              <li>
+                <span class="font-semibold"
+                  >Ingreso de datos de la reserva:</span
+                >
+                Se abrirá una ventana donde deberá ingresar el número de la
+                reserva y el DNI de la persona que realizó la reserva. Esto se
+                hace para mantener la seguridad. Tenga en cuenta que todos los
+                campos son obligatorios y el documento debe constar de 8
+                números.
+              </li>
+              <li>
+                <span class="font-semibold">Confirmación de la anulación:</span>
+                Al aceptar, si existe una reserva con el número de reserva y
+                número de DNI ingresados, se eliminará la reserva. En caso de
+                haber algún error, se le informará.
+              </li>
+            </ol>
+            <p>
+              Por favor, siga estos pasos cuidadosamente para garantizar una
+              experiencia de anulación de reserva sin problemas. ¡Esperamos que
+              encuentre la casa perfecta para sus necesidades!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="w-full h-24 bg-gray-800 font-semibold">
+      <div
+        class="text-sm px-6 sm:px-0 container mx-auto flex justify-between h-full items-center sm:w-1/2"
+      >
+        <div>
+          <a
+            class="transition-all duration-100 text-white flex items-center gap-2 px-3 py-2 hover:bg-gray-700 rounded-full"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/pato-1441/alquileresTemporales"
+          >
+            <i data-lucide="github" class="w-6 h-6"></i>
+            <span class="hidden sm:flex">Repositorio</span>
+          </a>
+        </div>
+        <div class="flex flex-col text-end text-white">
+          <p>Últ act.</p>
+          <p>12/11/2023</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
