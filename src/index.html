@@ -25,7 +25,11 @@
         <div
           class="transition-all duration-100 hover:bg-gray-600 sm:pl-1 sm:pr-4 py-1 rounded-full"
         >
-          <a class="flex items-center gap-2" href="">
+          <a
+            class="flex items-center gap-2"
+            href="./index.html"
+            rel="noopener noreferrer"
+          >
             <img
               src="../dist/iconoAlquileres.png"
               alt="logo Alquileres Temporarios"
@@ -37,22 +41,25 @@
         <ul class="flex justify-between gap-3">
           <li>
             <a
-              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-2 sm:py-1 rounded-full"
+              rel="noopener noreferrer"
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
               href="./index.html"
               >Inicio</a
             >
           </li>
           <li>
             <a
-              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-2 sm:py-1 rounded-full"
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
               href="./index.html"
+              rel="noopener noreferrer"
               >Casos</a
             >
           </li>
           <li>
             <a
-              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-2 sm:py-1 rounded-full"
+              class="transition-all duration-100 cursor-pointer hover:bg-gray-600 sm:px-3 sm:py-2 rounded-full"
               href="./creadores.html"
+              rel="noopener noreferrer"
               >Creadores</a
             >
           </li>
@@ -60,7 +67,7 @@
       </div>
     </header>
     <main class="bg-gray-200 min-h-[100svh]">
-      <div class="px-6 sm:px-0 container pt-6 mx-auto flex sm:w-1/2">
+      <div class="px-6 sm:px-0 container pt-16 pb-16 mx-auto flex sm:w-1/2">
         <div class="flex flex-col gap-2">
           <h2 class="font-bold text-4xl">Portal de ayuda</h2>
           <p class="text-lg text-justify">
@@ -83,5 +90,30 @@
         </div>
       </div>
     </main>
+    <footer class="w-full h-24 bg-gray-800 font-semibold">
+      <div
+        class="text-sm px-6 sm:px-0 container mx-auto flex justify-between h-full items-center sm:w-1/2"
+      >
+        <div>
+          <a
+            class="transition-all duration-100 text-white flex items-center gap-2 px-3 py-2 hover:bg-gray-700 rounded-full"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/pato-1441/alquileresTemporales"
+          >
+            <i data-lucide="github" class="w-6 h-6"></i>
+            <span class="hidden sm:flex">Repositorio</span>
+          </a>
+        </div>
+        <div class="flex flex-col text-end text-white">
+          <p>Últ act.</p>
+          <p>12/11/2023</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
